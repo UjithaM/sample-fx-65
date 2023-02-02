@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashBordController">
+   <children>
+      <Button layoutX="103.0" layoutY="212.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="119.0" prefWidth="150.0" text="button">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textField" layoutX="47.0" layoutY="79.0" prefHeight="83.0" prefWidth="250.0" />
+      <Label fx:id="titleLabel" layoutX="21.0" layoutY="11.0" prefHeight="42.0" prefWidth="298.0" />
+   </children>
+</AnchorPane>
